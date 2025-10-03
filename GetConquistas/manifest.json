@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Get Conquistas",
+    "version": "1.0",
+    "description": "Extensão para pegar dados de conquistas das paginas da Steam",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icons": {
+            "16": "icons/Thophy-18.png"
+        }
+    },
+    "permissions": ["storage", "activeTab", "scripting"]
+}
