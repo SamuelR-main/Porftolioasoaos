@@ -1,0 +1,19 @@
+@import "tailwindcss";
+*{
+  font-family:'Times New Roman', Times, serif;
+}
+:root{
+  --primary-color: #191717;
+  --second-color: #E94716;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+.second-color{
+  color: var(--second-color);
+}
